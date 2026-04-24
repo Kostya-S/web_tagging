@@ -1,0 +1,1 @@
+clear ; git add -A; git commit -m "Updated $(Get-Date -Format 'yyyy-MM-dd')"; git push
