@@ -13,6 +13,7 @@ Install:
     playwright install chromium
 
 Run:
+    python tag_audit.py https://www.mercedes-benz.com.au/ --max-pages 1000 --output mb_full.csv --wait-ms 2000
     python tag_audit.py https://www.example.com --max-pages 50 --output tags.csv
     python tag_audit.py https://shop.example.com --simulate full --headed
 """
